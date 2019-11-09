@@ -15,6 +15,7 @@ RUN yum install java-1.8.0-openjdk-devel -y
 RUN mkdir /docker
 RUN touch f1 f2 f3
 RUN echo "Hello You" >> f1
+RUN echo "Sample docker-jenkins-git build"
 RUN cp f1 /docker/
 
 
